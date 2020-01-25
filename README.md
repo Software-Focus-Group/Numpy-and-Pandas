@@ -1,7 +1,27 @@
-# Numpy-and-Pandas
+# Price-checker
 
-  Data_1.csv : is a 2 column no header dataset
+##### A small python script to check for prices on amazon and flipkart only
+
+## installing 
+
+  clone the repo by opening terminal (on linux/MacOS)
+  cd to your working folder (any folder in genral)
   
-  Data_2.csv : is a 3 column no header dataset
+  `git clone <url>`
   
-  Data_3.csv : is a 2 column datset with header and has extra footer space to use skipfooter function
+  `pip install -r requirements.txt`
+  
+   make a txt file with first line as 1
+  
+   followed by the urls in every line with no extra breaks and 0 at the end
+   
+    sample.txt
+    
+    1
+    <link1>
+    <link2>
+    0
+    
+   then do 
+   
+   `python3 app.py sample.txt`
